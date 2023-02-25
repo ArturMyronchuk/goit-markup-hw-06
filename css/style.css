@@ -477,16 +477,13 @@ address {
   background: #4d5ae5;
   border-radius: 4px;
   border: none;
+  position: relative;
   padding: 8px 64px 8px 24px;
   transition: background-color var(--transition-focus);
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
   background-color: var(--color-hover);
-}
-
-.subscribe-frame-btn {
-  position: relative;
 }
 
 .subscribe-frame {
@@ -668,6 +665,18 @@ address {
   text-align: center;
 }
 
+.label-form {
+  display: block;
+}
+.input-title-form {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
 .input-title {
   font-size: 12px;
   line-height: 1.16;
@@ -731,6 +740,9 @@ address {
 }
 .input-check {
   display: none;
+}
+.check-icon {
+  cursor: pointer;
 }
 .check-text {
   font-size: 12px;
